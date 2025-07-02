@@ -1,4 +1,3 @@
-// Usuario.java
 package com.edulivre.model;
 
 import java.time.LocalDateTime;
