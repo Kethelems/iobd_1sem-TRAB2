@@ -28,17 +28,17 @@ public class Matricula {
     public LocalDateTime getDataMatricula() { return dataMatricula; }
     public void setDataMatricula(LocalDateTime dataMatricula) { this.dataMatricula = dataMatricula; }
 
-    @Override
+@Override
 public String toString() {
-    return "Conteudo{" +
-            "id=" + id +
-            ", cursoId=" + cursoId +
-            ", titulo='" + titulo + '\'' +
-            ", descricao='" + descricao + '\'' +
-            ", tipo='" + tipo + '\'' +
-            ", arquivo=" + (arquivo != null ? arquivo.length + " bytes" : "null") +
-            ", dataCriacao=" + (dataCriacao != null ? dataCriacao.toString() : "null") +
-            '}';
+    return String.format("Conteudo{id=%s, cursoId=%s, titulo='%s', tipo='%s', arquivo=%s, dataCriacao=%s}", 
+        id, 
+        cursoId, 
+        titulo, 
+        tipo, 
+        arquivo != null ? (arquivo.length + " bytes") : "null", 
+        dataCriacao != null ? dataCriacao.toString() : "null"
+    );
 }
+
 
 }
