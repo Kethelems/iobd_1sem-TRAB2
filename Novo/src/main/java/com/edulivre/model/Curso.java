@@ -37,4 +37,18 @@ public class Curso {
     
     public UUID getProfessorId() { return professorId; }
     public void setProfessorId(UUID professorId) { this.professorId = professorId; }
+
+    @Override
+public String toString() {
+    return String.format(
+        "Curso{id=%s, titulo='%s', descricao='%s', dataCriacao=%s, avaliacao='%s', professorId=%s}",
+        id,
+        titulo,
+        descricao,
+        dataCriacao != null ? dataCriacao.toString() : "null",
+        avaliacao,
+        professorId
+    );
+}
+
 }
