@@ -42,4 +42,19 @@ public class Conteudo {
 
     public LocalDateTime getDataCriacao() { return dataCriacao; }
     public void setDataCriacao(LocalDateTime dataCriacao) { this.dataCriacao = dataCriacao; }
+
+    @Override
+public String toString() {
+    return String.format(
+        "Conteudo{id=%s, cursoId=%s, titulo='%s', descricao='%s', tipo='%s', arquivo=%s, dataCriacao=%s}",
+        id,
+        cursoId,
+        titulo,
+        descricao,
+        tipo,
+        arquivo != null ? (arquivo.length + " bytes") : "null",
+        dataCriacao != null ? dataCriacao.toString() : "null"
+    );
+}
+
 }
