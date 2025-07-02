@@ -141,14 +141,13 @@ O sistema implementa as seguintes funcionalidades básicas:
 ## 9.Resultados Esperados:
 
 Estrutura do banco após criação das tabelas:
-                List of relations
- Schema |    Name     | Type  |  Owner   
---------+-------------+-------+----------
- public | curso       | table | edulivre_user
- public | conteudo    | table | edulivre_user
- public | matricula   | table | edulivre_user
- public | usuario     | table | edulivre_user
-(4 rows)
+| Schema | Name      | Type  | Owner          |
+| ------ | --------- | ----- | -------------- |
+| public | curso     | table | edulivre\_user |
+| public | conteudo  | table | edulivre\_user |
+| public | matricula | table | edulivre\_user |
+| public | usuario   | table | edulivre\_user |
+
 
 
 ## 10.Saída da aplicação rodando (console):
