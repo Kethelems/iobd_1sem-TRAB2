@@ -80,18 +80,18 @@ psql -U edulivre_user -d edulivre_db -f edulivre_script.sql
 
 ## 5. Estrutura do Projeto:
 
-   /edulivre
- ├─ src/
- │   ├─ main/
- │   │    ├─ java/com/edulivre/
- │   │    │     ├─ Main.java
- │   │    │     ├─ dao/
- │   │    │     └─ model/
- │   │    └─ resources/
- │   │    
- │   └─ target/...
- ├─ edulivre_script.sql
- ├─ pom.xml
+/edulivre
+├─ src/
+│  ├─ main/
+│  │  ├─ java/com/edulivre/
+│  │  │  ├─ Main.java
+│  │  │  ├─ dao/
+│  │  │  └─ model/
+│  │  └─ resources/
+│  └─ target/...
+├─ edulivre_script.sql
+├─ pom.xml
+
 
 
 ## 6. Compilação e Execução:
