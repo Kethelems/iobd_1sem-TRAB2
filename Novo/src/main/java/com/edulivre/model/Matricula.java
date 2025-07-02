@@ -27,4 +27,18 @@ public class Matricula {
     
     public LocalDateTime getDataMatricula() { return dataMatricula; }
     public void setDataMatricula(LocalDateTime dataMatricula) { this.dataMatricula = dataMatricula; }
+
+    @Override
+public String toString() {
+    return "Conteudo{" +
+            "id=" + id +
+            ", cursoId=" + cursoId +
+            ", titulo='" + titulo + '\'' +
+            ", descricao='" + descricao + '\'' +
+            ", tipo='" + tipo + '\'' +
+            ", arquivo=" + (arquivo != null ? arquivo.length + " bytes" : "null") +
+            ", dataCriacao=" + (dataCriacao != null ? dataCriacao.toString() : "null") +
+            '}';
+}
+
 }
