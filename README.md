@@ -80,6 +80,7 @@ psql -U edulivre_user -d edulivre_db -f edulivre_script.sql
 
 ## 5. Estrutura do Projeto:
 
+```
 /edulivre
 ├─ src/
 │  ├─ main/
@@ -91,6 +92,8 @@ psql -U edulivre_user -d edulivre_db -f edulivre_script.sql
 │  └─ target/...
 ├─ edulivre_script.sql
 ├─ pom.xml
+```
+
 
 
 
